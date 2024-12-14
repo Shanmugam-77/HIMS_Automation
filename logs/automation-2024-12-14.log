@@ -1,5 +1,5 @@
-12:05:19.270 [AsyncHttpClient-1-2] TRACE - [id: 0x669d3887, L:/127.0.0.1:63193 - R:localhost/127.0.0.1:38215] FLUSH
-12:05:19.277 [AsyncHttpClient-1-2] TRACE - [id: 0x669d3887, L:/127.0.0.1:63193 - R:localhost/127.0.0.1:38215] READ: 126B
+18:12:19.884 [AsyncHttpClient-1-2] TRACE - [id: 0x66f9cc59, L:/127.0.0.1:56190 - R:localhost/127.0.0.1:37970] FLUSH
+18:12:19.897 [AsyncHttpClient-1-2] TRACE - [id: 0x66f9cc59, L:/127.0.0.1:56190 - R:localhost/127.0.0.1:37970] READ: 126B
          +-------------------------------------------------+
          |  0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f |
 +--------+-------------------------------------------------+----------------+
@@ -12,14 +12,14 @@
 |00000060| 6e 6f 2d 63 61 63 68 65 0d 0a 0d 0a 7b 22 76 61 |no-cache....{"va|
 |00000070| 6c 75 65 22 3a 22 42 61 6e 6e 75 72 22 7d       |lue":"Bannur"}  |
 +--------+-------------------------------------------------+----------------+
-12:05:19.278 [AsyncHttpClient-1-2] DEBUG - 
+18:12:19.899 [AsyncHttpClient-1-2] DEBUG - 
 
 Request DefaultFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: EmptyByteBufBE)
-GET /session/509a85ce801d81dcef6799114fe05ae9/element/f.D92759503C148D0C70451A69232DD33A.d.0052998E9D9F44A69DF80C84B9441178.e.559/text HTTP/1.1
+GET /session/28edb5252e4929c9b3dd120c023e1a22/element/f.708ECE064DD265E11FA67C0761AB5C1B.d.6B5FA0EAD857D346B6D01500618FDF04.e.567/text HTTP/1.1
 Cache-Control: no-cache
 User-Agent: selenium/4.12.0 (java windows)
 Content-Type: application/json; charset=utf-8
-host: localhost:38215
+host: localhost:37970
 accept: */*
 
 Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
@@ -28,23 +28,23 @@ Content-Length: 18
 Content-Type: application/json; charset=utf-8
 cache-control: no-cache
 
-12:05:19.278 [AsyncHttpClient-1-2] DEBUG - Adding key: http://localhost:38215 for channel [id: 0x669d3887, L:/127.0.0.1:63193 - R:localhost/127.0.0.1:38215]
-12:05:19.278 [AsyncHttpClient-1-2] TRACE - [id: 0x669d3887, L:/127.0.0.1:63193 - R:localhost/127.0.0.1:38215] READ COMPLETE
-12:05:19.278 [Forwarding getElementText on session 509a85ce801d81dcef6799114fe05ae9 to remote] DEBUG - Using pooled Channel '[id: 0x669d3887, L:/127.0.0.1:63193 - R:localhost/127.0.0.1:38215]' for 'GET' to 'http://localhost:38215/session/509a85ce801d81dcef6799114fe05ae9/element/f.D92759503C148D0C70451A69232DD33A.d.0052998E9D9F44A69DF80C84B9441178.e.560/text'
-12:05:19.278 [Forwarding getElementText on session 509a85ce801d81dcef6799114fe05ae9 to remote] DEBUG - Using open Channel [id: 0x669d3887, L:/127.0.0.1:63193 - R:localhost/127.0.0.1:38215] for GET '/session/509a85ce801d81dcef6799114fe05ae9/element/f.D92759503C148D0C70451A69232DD33A.d.0052998E9D9F44A69DF80C84B9441178.e.560/text'
-12:05:19.278 [AsyncHttpClient-1-2] TRACE - [id: 0x669d3887, L:/127.0.0.1:63193 - R:localhost/127.0.0.1:38215] WRITE: 299B
+18:12:19.899 [AsyncHttpClient-1-2] DEBUG - Adding key: http://localhost:37970 for channel [id: 0x66f9cc59, L:/127.0.0.1:56190 - R:localhost/127.0.0.1:37970]
+18:12:19.899 [AsyncHttpClient-1-2] TRACE - [id: 0x66f9cc59, L:/127.0.0.1:56190 - R:localhost/127.0.0.1:37970] READ COMPLETE
+18:12:19.900 [Forwarding getElementText on session 28edb5252e4929c9b3dd120c023e1a22 to remote] DEBUG - Using pooled Channel '[id: 0x66f9cc59, L:/127.0.0.1:56190 - R:localhost/127.0.0.1:37970]' for 'GET' to 'http://localhost:37970/session/28edb5252e4929c9b3dd120c023e1a22/element/f.708ECE064DD265E11FA67C0761AB5C1B.d.6B5FA0EAD857D346B6D01500618FDF04.e.568/text'
+18:12:19.900 [Forwarding getElementText on session 28edb5252e4929c9b3dd120c023e1a22 to remote] DEBUG - Using open Channel [id: 0x66f9cc59, L:/127.0.0.1:56190 - R:localhost/127.0.0.1:37970] for GET '/session/28edb5252e4929c9b3dd120c023e1a22/element/f.708ECE064DD265E11FA67C0761AB5C1B.d.6B5FA0EAD857D346B6D01500618FDF04.e.568/text'
+18:12:19.900 [AsyncHttpClient-1-2] TRACE - [id: 0x66f9cc59, L:/127.0.0.1:56190 - R:localhost/127.0.0.1:37970] WRITE: 299B
          +-------------------------------------------------+
          |  0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f |
 +--------+-------------------------------------------------+----------------+
-|00000000| 47 45 54 20 2f 73 65 73 73 69 6f 6e 2f 35 30 39 |GET /session/509|
-|00000010| 61 38 35 63 65 38 30 31 64 38 31 64 63 65 66 36 |a85ce801d81dcef6|
-|00000020| 37 39 39 31 31 34 66 65 30 35 61 65 39 2f 65 6c |799114fe05ae9/el|
-|00000030| 65 6d 65 6e 74 2f 66 2e 44 39 32 37 35 39 35 30 |ement/f.D9275950|
-|00000040| 33 43 31 34 38 44 30 43 37 30 34 35 31 41 36 39 |3C148D0C70451A69|
-|00000050| 32 33 32 44 44 33 33 41 2e 64 2e 30 30 35 32 39 |232DD33A.d.00529|
-|00000060| 39 38 45 39 44 39 46 34 34 41 36 39 44 46 38 30 |98E9D9F44A69DF80|
-|00000070| 43 38 34 42 39 34 34 31 31 37 38 2e 65 2e 35 36 |C84B9441178.e.56|
-|00000080| 30 2f 74 65 78 74 20 48 54 54 50 2f 31 2e 31 0d |0/text HTTP/1.1.|
+|00000000| 47 45 54 20 2f 73 65 73 73 69 6f 6e 2f 32 38 65 |GET /session/28e|
+|00000010| 64 62 35 32 35 32 65 34 39 32 39 63 39 62 33 64 |db5252e4929c9b3d|
+|00000020| 64 31 32 30 63 30 32 33 65 31 61 32 32 2f 65 6c |d120c023e1a22/el|
+|00000030| 65 6d 65 6e 74 2f 66 2e 37 30 38 45 43 45 30 36 |ement/f.708ECE06|
+|00000040| 34 44 44 32 36 35 45 31 31 46 41 36 37 43 30 37 |4DD265E11FA67C07|
+|00000050| 36 31 41 42 35 43 31 42 2e 64 2e 36 42 35 46 41 |61AB5C1B.d.6B5FA|
+|00000060| 30 45 41 44 38 35 37 44 33 34 36 42 36 44 30 31 |0EAD857D346B6D01|
+|00000070| 35 30 30 36 31 38 46 44 46 30 34 2e 65 2e 35 36 |500618FDF04.e.56|
+|00000080| 38 2f 74 65 78 74 20 48 54 54 50 2f 31 2e 31 0d |8/text HTTP/1.1.|
 |00000090| 0a 43 61 63 68 65 2d 43 6f 6e 74 72 6f 6c 3a 20 |.Cache-Control: |
 |000000a0| 6e 6f 2d 63 61 63 68 65 0d 0a 55 73 65 72 2d 41 |no-cache..User-A|
 |000000b0| 67 65 6e 74 3a 20 73 65 6c 65 6e 69 75 6d 2f 34 |gent: selenium/4|
@@ -53,11 +53,11 @@ cache-control: no-cache
 |000000e0| 70 65 3a 20 61 70 70 6c 69 63 61 74 69 6f 6e 2f |pe: application/|
 |000000f0| 6a 73 6f 6e 3b 20 63 68 61 72 73 65 74 3d 75 74 |json; charset=ut|
 |00000100| 66 2d 38 0d 0a 68 6f 73 74 3a 20 6c 6f 63 61 6c |f-8..host: local|
-|00000110| 68 6f 73 74 3a 33 38 32 31 35 0d 0a 61 63 63 65 |host:38215..acce|
+|00000110| 68 6f 73 74 3a 33 37 39 37 30 0d 0a 61 63 63 65 |host:37970..acce|
 |00000120| 70 74 3a 20 2a 2f 2a 0d 0a 0d 0a                |pt: */*....     |
 +--------+-------------------------------------------------+----------------+
-12:05:19.278 [AsyncHttpClient-1-2] TRACE - [id: 0x669d3887, L:/127.0.0.1:63193 - R:localhost/127.0.0.1:38215] FLUSH
-12:05:19.284 [AsyncHttpClient-1-2] TRACE - [id: 0x669d3887, L:/127.0.0.1:63193 - R:localhost/127.0.0.1:38215] READ: 127B
+18:12:19.901 [AsyncHttpClient-1-2] TRACE - [id: 0x66f9cc59, L:/127.0.0.1:56190 - R:localhost/127.0.0.1:37970] FLUSH
+18:12:19.910 [AsyncHttpClient-1-2] TRACE - [id: 0x66f9cc59, L:/127.0.0.1:56190 - R:localhost/127.0.0.1:37970] READ: 127B
          +-------------------------------------------------+
          |  0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f |
 +--------+-------------------------------------------------+----------------+
@@ -70,14 +70,14 @@ cache-control: no-cache
 |00000060| 6e 6f 2d 63 61 63 68 65 0d 0a 0d 0a 7b 22 76 61 |no-cache....{"va|
 |00000070| 6c 75 65 22 3a 22 42 61 6e 74 76 61 6c 22 7d    |lue":"Bantval"} |
 +--------+-------------------------------------------------+----------------+
-12:05:19.284 [AsyncHttpClient-1-2] DEBUG - 
+18:12:19.910 [AsyncHttpClient-1-2] DEBUG - 
 
 Request DefaultFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: EmptyByteBufBE)
-GET /session/509a85ce801d81dcef6799114fe05ae9/element/f.D92759503C148D0C70451A69232DD33A.d.0052998E9D9F44A69DF80C84B9441178.e.560/text HTTP/1.1
+GET /session/28edb5252e4929c9b3dd120c023e1a22/element/f.708ECE064DD265E11FA67C0761AB5C1B.d.6B5FA0EAD857D346B6D01500618FDF04.e.568/text HTTP/1.1
 Cache-Control: no-cache
 User-Agent: selenium/4.12.0 (java windows)
 Content-Type: application/json; charset=utf-8
-host: localhost:38215
+host: localhost:37970
 accept: */*
 
 Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
@@ -86,23 +86,23 @@ Content-Length: 19
 Content-Type: application/json; charset=utf-8
 cache-control: no-cache
 
-12:05:19.284 [AsyncHttpClient-1-2] DEBUG - Adding key: http://localhost:38215 for channel [id: 0x669d3887, L:/127.0.0.1:63193 - R:localhost/127.0.0.1:38215]
-12:05:19.284 [AsyncHttpClient-1-2] TRACE - [id: 0x669d3887, L:/127.0.0.1:63193 - R:localhost/127.0.0.1:38215] READ COMPLETE
-12:05:19.285 [Forwarding getElementText on session 509a85ce801d81dcef6799114fe05ae9 to remote] DEBUG - Using pooled Channel '[id: 0x669d3887, L:/127.0.0.1:63193 - R:localhost/127.0.0.1:38215]' for 'GET' to 'http://localhost:38215/session/509a85ce801d81dcef6799114fe05ae9/element/f.D92759503C148D0C70451A69232DD33A.d.0052998E9D9F44A69DF80C84B9441178.e.561/text'
-12:05:19.285 [Forwarding getElementText on session 509a85ce801d81dcef6799114fe05ae9 to remote] DEBUG - Using open Channel [id: 0x669d3887, L:/127.0.0.1:63193 - R:localhost/127.0.0.1:38215] for GET '/session/509a85ce801d81dcef6799114fe05ae9/element/f.D92759503C148D0C70451A69232DD33A.d.0052998E9D9F44A69DF80C84B9441178.e.561/text'
-12:05:19.285 [AsyncHttpClient-1-2] TRACE - [id: 0x669d3887, L:/127.0.0.1:63193 - R:localhost/127.0.0.1:38215] WRITE: 299B
+18:12:19.910 [AsyncHttpClient-1-2] DEBUG - Adding key: http://localhost:37970 for channel [id: 0x66f9cc59, L:/127.0.0.1:56190 - R:localhost/127.0.0.1:37970]
+18:12:19.911 [AsyncHttpClient-1-2] TRACE - [id: 0x66f9cc59, L:/127.0.0.1:56190 - R:localhost/127.0.0.1:37970] READ COMPLETE
+18:12:19.912 [Forwarding getElementText on session 28edb5252e4929c9b3dd120c023e1a22 to remote] DEBUG - Using pooled Channel '[id: 0x66f9cc59, L:/127.0.0.1:56190 - R:localhost/127.0.0.1:37970]' for 'GET' to 'http://localhost:37970/session/28edb5252e4929c9b3dd120c023e1a22/element/f.708ECE064DD265E11FA67C0761AB5C1B.d.6B5FA0EAD857D346B6D01500618FDF04.e.569/text'
+18:12:19.912 [Forwarding getElementText on session 28edb5252e4929c9b3dd120c023e1a22 to remote] DEBUG - Using open Channel [id: 0x66f9cc59, L:/127.0.0.1:56190 - R:localhost/127.0.0.1:37970] for GET '/session/28edb5252e4929c9b3dd120c023e1a22/element/f.708ECE064DD265E11FA67C0761AB5C1B.d.6B5FA0EAD857D346B6D01500618FDF04.e.569/text'
+18:12:19.912 [AsyncHttpClient-1-2] TRACE - [id: 0x66f9cc59, L:/127.0.0.1:56190 - R:localhost/127.0.0.1:37970] WRITE: 299B
          +-------------------------------------------------+
          |  0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f |
 +--------+-------------------------------------------------+----------------+
-|00000000| 47 45 54 20 2f 73 65 73 73 69 6f 6e 2f 35 30 39 |GET /session/509|
-|00000010| 61 38 35 63 65 38 30 31 64 38 31 64 63 65 66 36 |a85ce801d81dcef6|
-|00000020| 37 39 39 31 31 34 66 65 30 35 61 65 39 2f 65 6c |799114fe05ae9/el|
-|00000030| 65 6d 65 6e 74 2f 66 2e 44 39 32 37 35 39 35 30 |ement/f.D9275950|
-|00000040| 33 43 31 34 38 44 30 43 37 30 34 35 31 41 36 39 |3C148D0C70451A69|
-|00000050| 32 33 32 44 44 33 33 41 2e 64 2e 30 30 35 32 39 |232DD33A.d.00529|
-|00000060| 39 38 45 39 44 39 46 34 34 41 36 39 44 46 38 30 |98E9D9F44A69DF80|
-|00000070| 43 38 34 42 39 34 34 31 31 37 38 2e 65 2e 35 36 |C84B9441178.e.56|
-|00000080| 31 2f 74 65 78 74 20 48 54 54 50 2f 31 2e 31 0d |1/text HTTP/1.1.|
+|00000000| 47 45 54 20 2f 73 65 73 73 69 6f 6e 2f 32 38 65 |GET /session/28e|
+|00000010| 64 62 35 32 35 32 65 34 39 32 39 63 39 62 33 64 |db5252e4929c9b3d|
+|00000020| 64 31 32 30 63 30 32 33 65 31 61 32 32 2f 65 6c |d120c023e1a22/el|
+|00000030| 65 6d 65 6e 74 2f 66 2e 37 30 38 45 43 45 30 36 |ement/f.708ECE06|
+|00000040| 34 44 44 32 36 35 45 31 31 46 41 36 37 43 30 37 |4DD265E11FA67C07|
+|00000050| 36 31 41 42 35 43 31 42 2e 64 2e 36 42 35 46 41 |61AB5C1B.d.6B5FA|
+|00000060| 30 45 41 44 38 35 37 44 33 34 36 42 36 44 30 31 |0EAD857D346B6D01|
+|00000070| 35 30 30 36 31 38 46 44 46 30 34 2e 65 2e 35 36 |500618FDF04.e.56|
+|00000080| 39 2f 74 65 78 74 20 48 54 54 50 2f 31 2e 31 0d |9/text HTTP/1.1.|
 |00000090| 0a 43 61 63 68 65 2d 43 6f 6e 74 72 6f 6c 3a 20 |.Cache-Control: |
 |000000a0| 6e 6f 2d 63 61 63 68 65 0d 0a 55 73 65 72 2d 41 |no-cache..User-A|
 |000000b0| 67 65 6e 74 3a 20 73 65 6c 65 6e 69 75 6d 2f 34 |gent: selenium/4|
@@ -111,11 +111,11 @@ cache-control: no-cache
 |000000e0| 70 65 3a 20 61 70 70 6c 69 63 61 74 69 6f 6e 2f |pe: application/|
 |000000f0| 6a 73 6f 6e 3b 20 63 68 61 72 73 65 74 3d 75 74 |json; charset=ut|
 |00000100| 66 2d 38 0d 0a 68 6f 73 74 3a 20 6c 6f 63 61 6c |f-8..host: local|
-|00000110| 68 6f 73 74 3a 33 38 32 31 35 0d 0a 61 63 63 65 |host:38215..acce|
+|00000110| 68 6f 73 74 3a 33 37 39 37 30 0d 0a 61 63 63 65 |host:37970..acce|
 |00000120| 70 74 3a 20 2a 2f 2a 0d 0a 0d 0a                |pt: */*....     |
 +--------+-------------------------------------------------+----------------+
-12:05:19.285 [AsyncHttpClient-1-2] TRACE - [id: 0x669d3887, L:/127.0.0.1:63193 - R:localhost/127.0.0.1:38215] FLUSH
-12:05:19.290 [AsyncHttpClient-1-2] TRACE - [id: 0x669d3887, L:/127.0.0.1:63193 - R:localhost/127.0.0.1:38215] READ: 132B
+18:12:19.912 [AsyncHttpClient-1-2] TRACE - [id: 0x66f9cc59, L:/127.0.0.1:56190 - R:localhost/127.0.0.1:37970] FLUSH
+18:12:19.923 [AsyncHttpClient-1-2] TRACE - [id: 0x66f9cc59, L:/127.0.0.1:56190 - R:localhost/127.0.0.1:37970] READ: 132B
          +-------------------------------------------------+
          |  0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f |
 +--------+-------------------------------------------------+----------------+
@@ -129,14 +129,14 @@ cache-control: no-cache
 |00000070| 6c 75 65 22 3a 22 42 61 73 61 76 61 6b 61 6c 79 |lue":"Basavakaly|
 |00000080| 61 6e 22 7d                                     |an"}            |
 +--------+-------------------------------------------------+----------------+
-12:05:19.290 [AsyncHttpClient-1-2] DEBUG - 
+18:12:19.923 [AsyncHttpClient-1-2] DEBUG - 
 
 Request DefaultFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: EmptyByteBufBE)
-GET /session/509a85ce801d81dcef6799114fe05ae9/element/f.D92759503C148D0C70451A69232DD33A.d.0052998E9D9F44A69DF80C84B9441178.e.561/text HTTP/1.1
+GET /session/28edb5252e4929c9b3dd120c023e1a22/element/f.708ECE064DD265E11FA67C0761AB5C1B.d.6B5FA0EAD857D346B6D01500618FDF04.e.569/text HTTP/1.1
 Cache-Control: no-cache
 User-Agent: selenium/4.12.0 (java windows)
 Content-Type: application/json; charset=utf-8
-host: localhost:38215
+host: localhost:37970
 accept: */*
 
 Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
@@ -145,23 +145,23 @@ Content-Length: 24
 Content-Type: application/json; charset=utf-8
 cache-control: no-cache
 
-12:05:19.290 [AsyncHttpClient-1-2] DEBUG - Adding key: http://localhost:38215 for channel [id: 0x669d3887, L:/127.0.0.1:63193 - R:localhost/127.0.0.1:38215]
-12:05:19.290 [AsyncHttpClient-1-2] TRACE - [id: 0x669d3887, L:/127.0.0.1:63193 - R:localhost/127.0.0.1:38215] READ COMPLETE
-12:05:19.291 [Forwarding getElementText on session 509a85ce801d81dcef6799114fe05ae9 to remote] DEBUG - Using pooled Channel '[id: 0x669d3887, L:/127.0.0.1:63193 - R:localhost/127.0.0.1:38215]' for 'GET' to 'http://localhost:38215/session/509a85ce801d81dcef6799114fe05ae9/element/f.D92759503C148D0C70451A69232DD33A.d.0052998E9D9F44A69DF80C84B9441178.e.562/text'
-12:05:19.291 [Forwarding getElementText on session 509a85ce801d81dcef6799114fe05ae9 to remote] DEBUG - Using open Channel [id: 0x669d3887, L:/127.0.0.1:63193 - R:localhost/127.0.0.1:38215] for GET '/session/509a85ce801d81dcef6799114fe05ae9/element/f.D92759503C148D0C70451A69232DD33A.d.0052998E9D9F44A69DF80C84B9441178.e.562/text'
-12:05:19.291 [AsyncHttpClient-1-2] TRACE - [id: 0x669d3887, L:/127.0.0.1:63193 - R:localhost/127.0.0.1:38215] WRITE: 299B
+18:12:19.924 [AsyncHttpClient-1-2] DEBUG - Adding key: http://localhost:37970 for channel [id: 0x66f9cc59, L:/127.0.0.1:56190 - R:localhost/127.0.0.1:37970]
+18:12:19.924 [AsyncHttpClient-1-2] TRACE - [id: 0x66f9cc59, L:/127.0.0.1:56190 - R:localhost/127.0.0.1:37970] READ COMPLETE
+18:12:19.925 [Forwarding getElementText on session 28edb5252e4929c9b3dd120c023e1a22 to remote] DEBUG - Using pooled Channel '[id: 0x66f9cc59, L:/127.0.0.1:56190 - R:localhost/127.0.0.1:37970]' for 'GET' to 'http://localhost:37970/session/28edb5252e4929c9b3dd120c023e1a22/element/f.708ECE064DD265E11FA67C0761AB5C1B.d.6B5FA0EAD857D346B6D01500618FDF04.e.570/text'
+18:12:19.925 [Forwarding getElementText on session 28edb5252e4929c9b3dd120c023e1a22 to remote] DEBUG - Using open Channel [id: 0x66f9cc59, L:/127.0.0.1:56190 - R:localhost/127.0.0.1:37970] for GET '/session/28edb5252e4929c9b3dd120c023e1a22/element/f.708ECE064DD265E11FA67C0761AB5C1B.d.6B5FA0EAD857D346B6D01500618FDF04.e.570/text'
+18:12:19.925 [AsyncHttpClient-1-2] TRACE - [id: 0x66f9cc59, L:/127.0.0.1:56190 - R:localhost/127.0.0.1:37970] WRITE: 299B
          +-------------------------------------------------+
          |  0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f |
 +--------+-------------------------------------------------+----------------+
-|00000000| 47 45 54 20 2f 73 65 73 73 69 6f 6e 2f 35 30 39 |GET /session/509|
-|00000010| 61 38 35 63 65 38 30 31 64 38 31 64 63 65 66 36 |a85ce801d81dcef6|
-|00000020| 37 39 39 31 31 34 66 65 30 35 61 65 39 2f 65 6c |799114fe05ae9/el|
-|00000030| 65 6d 65 6e 74 2f 66 2e 44 39 32 37 35 39 35 30 |ement/f.D9275950|
-|00000040| 33 43 31 34 38 44 30 43 37 30 34 35 31 41 36 39 |3C148D0C70451A69|
-|00000050| 32 33 32 44 44 33 33 41 2e 64 2e 30 30 35 32 39 |232DD33A.d.00529|
-|00000060| 39 38 45 39 44 39 46 34 34 41 36 39 44 46 38 30 |98E9D9F44A69DF80|
-|00000070| 43 38 34 42 39 34 34 31 31 37 38 2e 65 2e 35 36 |C84B9441178.e.56|
-|00000080| 32 2f 74 65 78 74 20 48 54 54 50 2f 31 2e 31 0d |2/text HTTP/1.1.|
+|00000000| 47 45 54 20 2f 73 65 73 73 69 6f 6e 2f 32 38 65 |GET /session/28e|
+|00000010| 64 62 35 32 35 32 65 34 39 32 39 63 39 62 33 64 |db5252e4929c9b3d|
+|00000020| 64 31 32 30 63 30 32 33 65 31 61 32 32 2f 65 6c |d120c023e1a22/el|
+|00000030| 65 6d 65 6e 74 2f 66 2e 37 30 38 45 43 45 30 36 |ement/f.708ECE06|
+|00000040| 34 44 44 32 36 35 45 31 31 46 41 36 37 43 30 37 |4DD265E11FA67C07|
+|00000050| 36 31 41 42 35 43 31 42 2e 64 2e 36 42 35 46 41 |61AB5C1B.d.6B5FA|
+|00000060| 30 45 41 44 38 35 37 44 33 34 36 42 36 44 30 31 |0EAD857D346B6D01|
+|00000070| 35 30 30 36 31 38 46 44 46 30 34 2e 65 2e 35 37 |500618FDF04.e.57|
+|00000080| 30 2f 74 65 78 74 20 48 54 54 50 2f 31 2e 31 0d |0/text HTTP/1.1.|
 |00000090| 0a 43 61 63 68 65 2d 43 6f 6e 74 72 6f 6c 3a 20 |.Cache-Control: |
 |000000a0| 6e 6f 2d 63 61 63 68 65 0d 0a 55 73 65 72 2d 41 |no-cache..User-A|
 |000000b0| 67 65 6e 74 3a 20 73 65 6c 65 6e 69 75 6d 2f 34 |gent: selenium/4|
@@ -170,11 +170,11 @@ cache-control: no-cache
 |000000e0| 70 65 3a 20 61 70 70 6c 69 63 61 74 69 6f 6e 2f |pe: application/|
 |000000f0| 6a 73 6f 6e 3b 20 63 68 61 72 73 65 74 3d 75 74 |json; charset=ut|
 |00000100| 66 2d 38 0d 0a 68 6f 73 74 3a 20 6c 6f 63 61 6c |f-8..host: local|
-|00000110| 68 6f 73 74 3a 33 38 32 31 35 0d 0a 61 63 63 65 |host:38215..acce|
+|00000110| 68 6f 73 74 3a 33 37 39 37 30 0d 0a 61 63 63 65 |host:37970..acce|
 |00000120| 70 74 3a 20 2a 2f 2a 0d 0a 0d 0a                |pt: */*....     |
 +--------+-------------------------------------------------+----------------+
-12:05:19.291 [AsyncHttpClient-1-2] TRACE - [id: 0x669d3887, L:/127.0.0.1:63193 - R:localhost/127.0.0.1:38215] FLUSH
-12:05:19.296 [AsyncHttpClient-1-2] TRACE - [id: 0x669d3887, L:/127.0.0.1:63193 - R:localhost/127.0.0.1:38215] READ: 137B
+18:12:19.925 [AsyncHttpClient-1-2] TRACE - [id: 0x66f9cc59, L:/127.0.0.1:56190 - R:localhost/127.0.0.1:37970] FLUSH
+18:12:19.935 [AsyncHttpClient-1-2] TRACE - [id: 0x66f9cc59, L:/127.0.0.1:56190 - R:localhost/127.0.0.1:37970] READ: 137B
          +-------------------------------------------------+
          |  0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f |
 +--------+-------------------------------------------------+----------------+
@@ -188,14 +188,14 @@ cache-control: no-cache
 |00000070| 6c 75 65 22 3a 22 42 61 73 61 76 61 6e 61 20 42 |lue":"Basavana B|
 |00000080| 61 67 65 76 61 64 69 22 7d                      |agevadi"}       |
 +--------+-------------------------------------------------+----------------+
-12:05:19.296 [AsyncHttpClient-1-2] DEBUG - 
+18:12:19.935 [AsyncHttpClient-1-2] DEBUG - 
 
 Request DefaultFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: EmptyByteBufBE)
-GET /session/509a85ce801d81dcef6799114fe05ae9/element/f.D92759503C148D0C70451A69232DD33A.d.0052998E9D9F44A69DF80C84B9441178.e.562/text HTTP/1.1
+GET /session/28edb5252e4929c9b3dd120c023e1a22/element/f.708ECE064DD265E11FA67C0761AB5C1B.d.6B5FA0EAD857D346B6D01500618FDF04.e.570/text HTTP/1.1
 Cache-Control: no-cache
 User-Agent: selenium/4.12.0 (java windows)
 Content-Type: application/json; charset=utf-8
-host: localhost:38215
+host: localhost:37970
 accept: */*
 
 Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
@@ -204,23 +204,23 @@ Content-Length: 29
 Content-Type: application/json; charset=utf-8
 cache-control: no-cache
 
-12:05:19.296 [AsyncHttpClient-1-2] DEBUG - Adding key: http://localhost:38215 for channel [id: 0x669d3887, L:/127.0.0.1:63193 - R:localhost/127.0.0.1:38215]
-12:05:19.296 [AsyncHttpClient-1-2] TRACE - [id: 0x669d3887, L:/127.0.0.1:63193 - R:localhost/127.0.0.1:38215] READ COMPLETE
-12:05:19.297 [Forwarding getElementText on session 509a85ce801d81dcef6799114fe05ae9 to remote] DEBUG - Using pooled Channel '[id: 0x669d3887, L:/127.0.0.1:63193 - R:localhost/127.0.0.1:38215]' for 'GET' to 'http://localhost:38215/session/509a85ce801d81dcef6799114fe05ae9/element/f.D92759503C148D0C70451A69232DD33A.d.0052998E9D9F44A69DF80C84B9441178.e.563/text'
-12:05:19.297 [Forwarding getElementText on session 509a85ce801d81dcef6799114fe05ae9 to remote] DEBUG - Using open Channel [id: 0x669d3887, L:/127.0.0.1:63193 - R:localhost/127.0.0.1:38215] for GET '/session/509a85ce801d81dcef6799114fe05ae9/element/f.D92759503C148D0C70451A69232DD33A.d.0052998E9D9F44A69DF80C84B9441178.e.563/text'
-12:05:19.297 [AsyncHttpClient-1-2] TRACE - [id: 0x669d3887, L:/127.0.0.1:63193 - R:localhost/127.0.0.1:38215] WRITE: 299B
+18:12:19.935 [AsyncHttpClient-1-2] DEBUG - Adding key: http://localhost:37970 for channel [id: 0x66f9cc59, L:/127.0.0.1:56190 - R:localhost/127.0.0.1:37970]
+18:12:19.935 [AsyncHttpClient-1-2] TRACE - [id: 0x66f9cc59, L:/127.0.0.1:56190 - R:localhost/127.0.0.1:37970] READ COMPLETE
+18:12:19.936 [Forwarding getElementText on session 28edb5252e4929c9b3dd120c023e1a22 to remote] DEBUG - Using pooled Channel '[id: 0x66f9cc59, L:/127.0.0.1:56190 - R:localhost/127.0.0.1:37970]' for 'GET' to 'http://localhost:37970/session/28edb5252e4929c9b3dd120c023e1a22/element/f.708ECE064DD265E11FA67C0761AB5C1B.d.6B5FA0EAD857D346B6D01500618FDF04.e.571/text'
+18:12:19.936 [Forwarding getElementText on session 28edb5252e4929c9b3dd120c023e1a22 to remote] DEBUG - Using open Channel [id: 0x66f9cc59, L:/127.0.0.1:56190 - R:localhost/127.0.0.1:37970] for GET '/session/28edb5252e4929c9b3dd120c023e1a22/element/f.708ECE064DD265E11FA67C0761AB5C1B.d.6B5FA0EAD857D346B6D01500618FDF04.e.571/text'
+18:12:19.937 [AsyncHttpClient-1-2] TRACE - [id: 0x66f9cc59, L:/127.0.0.1:56190 - R:localhost/127.0.0.1:37970] WRITE: 299B
          +-------------------------------------------------+
          |  0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f |
 +--------+-------------------------------------------------+----------------+
-|00000000| 47 45 54 20 2f 73 65 73 73 69 6f 6e 2f 35 30 39 |GET /session/509|
-|00000010| 61 38 35 63 65 38 30 31 64 38 31 64 63 65 66 36 |a85ce801d81dcef6|
-|00000020| 37 39 39 31 31 34 66 65 30 35 61 65 39 2f 65 6c |799114fe05ae9/el|
-|00000030| 65 6d 65 6e 74 2f 66 2e 44 39 32 37 35 39 35 30 |ement/f.D9275950|
-|00000040| 33 43 31 34 38 44 30 43 37 30 34 35 31 41 36 39 |3C148D0C70451A69|
-|00000050| 32 33 32 44 44 33 33 41 2e 64 2e 30 30 35 32 39 |232DD33A.d.00529|
-|00000060| 39 38 45 39 44 39 46 34 34 41 36 39 44 46 38 30 |98E9D9F44A69DF80|
-|00000070| 43 38 34 42 39 34 34 31 31 37 38 2e 65 2e 35 36 |C84B9441178.e.56|
-|00000080| 33 2f 74 65 78 74 20 48 54 54 50 2f 31 2e 31 0d |3/text HTTP/1.1.|
+|00000000| 47 45 54 20 2f 73 65 73 73 69 6f 6e 2f 32 38 65 |GET /session/28e|
+|00000010| 64 62 35 32 35 32 65 34 39 32 39 63 39 62 33 64 |db5252e4929c9b3d|
+|00000020| 64 31 32 30 63 30 32 33 65 31 61 32 32 2f 65 6c |d120c023e1a22/el|
+|00000030| 65 6d 65 6e 74 2f 66 2e 37 30 38 45 43 45 30 36 |ement/f.708ECE06|
+|00000040| 34 44 44 32 36 35 45 31 31 46 41 36 37 43 30 37 |4DD265E11FA67C07|
+|00000050| 36 31 41 42 35 43 31 42 2e 64 2e 36 42 35 46 41 |61AB5C1B.d.6B5FA|
+|00000060| 30 45 41 44 38 35 37 44 33 34 36 42 36 44 30 31 |0EAD857D346B6D01|
+|00000070| 35 30 30 36 31 38 46 44 46 30 34 2e 65 2e 35 37 |500618FDF04.e.57|
+|00000080| 31 2f 74 65 78 74 20 48 54 54 50 2f 31 2e 31 0d |1/text HTTP/1.1.|
 |00000090| 0a 43 61 63 68 65 2d 43 6f 6e 74 72 6f 6c 3a 20 |.Cache-Control: |
 |000000a0| 6e 6f 2d 63 61 63 68 65 0d 0a 55 73 65 72 2d 41 |no-cache..User-A|
 |000000b0| 67 65 6e 74 3a 20 73 65 6c 65 6e 69 75 6d 2f 34 |gent: selenium/4|
@@ -229,11 +229,11 @@ cache-control: no-cache
 |000000e0| 70 65 3a 20 61 70 70 6c 69 63 61 74 69 6f 6e 2f |pe: application/|
 |000000f0| 6a 73 6f 6e 3b 20 63 68 61 72 73 65 74 3d 75 74 |json; charset=ut|
 |00000100| 66 2d 38 0d 0a 68 6f 73 74 3a 20 6c 6f 63 61 6c |f-8..host: local|
-|00000110| 68 6f 73 74 3a 33 38 32 31 35 0d 0a 61 63 63 65 |host:38215..acce|
+|00000110| 68 6f 73 74 3a 33 37 39 37 30 0d 0a 61 63 63 65 |host:37970..acce|
 |00000120| 70 74 3a 20 2a 2f 2a 0d 0a 0d 0a                |pt: */*....     |
 +--------+-------------------------------------------------+----------------+
-12:05:19.297 [AsyncHttpClient-1-2] TRACE - [id: 0x669d3887, L:/127.0.0.1:63193 - R:localhost/127.0.0.1:38215] FLUSH
-12:05:19.302 [AsyncHttpClient-1-2] TRACE - [id: 0x669d3887, L:/127.0.0.1:63193 - R:localhost/127.0.0.1:38215] READ: 128B
+18:12:19.937 [AsyncHttpClient-1-2] TRACE - [id: 0x66f9cc59, L:/127.0.0.1:56190 - R:localhost/127.0.0.1:37970] FLUSH
+18:12:19.947 [AsyncHttpClient-1-2] TRACE - [id: 0x66f9cc59, L:/127.0.0.1:56190 - R:localhost/127.0.0.1:37970] READ: 128B
          +-------------------------------------------------+
          |  0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f |
 +--------+-------------------------------------------------+----------------+
@@ -246,14 +246,14 @@ cache-control: no-cache
 |00000060| 6e 6f 2d 63 61 63 68 65 0d 0a 0d 0a 7b 22 76 61 |no-cache....{"va|
 |00000070| 6c 75 65 22 3a 22 42 65 6c 61 67 61 76 69 22 7d |lue":"Belagavi"}|
 +--------+-------------------------------------------------+----------------+
-12:05:19.302 [AsyncHttpClient-1-2] DEBUG - 
+18:12:19.947 [AsyncHttpClient-1-2] DEBUG - 
 
 Request DefaultFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: EmptyByteBufBE)
-GET /session/509a85ce801d81dcef6799114fe05ae9/element/f.D92759503C148D0C70451A69232DD33A.d.0052998E9D9F44A69DF80C84B9441178.e.563/text HTTP/1.1
+GET /session/28edb5252e4929c9b3dd120c023e1a22/element/f.708ECE064DD265E11FA67C0761AB5C1B.d.6B5FA0EAD857D346B6D01500618FDF04.e.571/text HTTP/1.1
 Cache-Control: no-cache
 User-Agent: selenium/4.12.0 (java windows)
 Content-Type: application/json; charset=utf-8
-host: localhost:38215
+host: localhost:37970
 accept: */*
 
 Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
@@ -262,23 +262,23 @@ Content-Length: 20
 Content-Type: application/json; charset=utf-8
 cache-control: no-cache
 
-12:05:19.302 [AsyncHttpClient-1-2] DEBUG - Adding key: http://localhost:38215 for channel [id: 0x669d3887, L:/127.0.0.1:63193 - R:localhost/127.0.0.1:38215]
-12:05:19.302 [AsyncHttpClient-1-2] TRACE - [id: 0x669d3887, L:/127.0.0.1:63193 - R:localhost/127.0.0.1:38215] READ COMPLETE
-12:05:19.303 [Forwarding getElementText on session 509a85ce801d81dcef6799114fe05ae9 to remote] DEBUG - Using pooled Channel '[id: 0x669d3887, L:/127.0.0.1:63193 - R:localhost/127.0.0.1:38215]' for 'GET' to 'http://localhost:38215/session/509a85ce801d81dcef6799114fe05ae9/element/f.D92759503C148D0C70451A69232DD33A.d.0052998E9D9F44A69DF80C84B9441178.e.564/text'
-12:05:19.303 [Forwarding getElementText on session 509a85ce801d81dcef6799114fe05ae9 to remote] DEBUG - Using open Channel [id: 0x669d3887, L:/127.0.0.1:63193 - R:localhost/127.0.0.1:38215] for GET '/session/509a85ce801d81dcef6799114fe05ae9/element/f.D92759503C148D0C70451A69232DD33A.d.0052998E9D9F44A69DF80C84B9441178.e.564/text'
-12:05:19.303 [AsyncHttpClient-1-2] TRACE - [id: 0x669d3887, L:/127.0.0.1:63193 - R:localhost/127.0.0.1:38215] WRITE: 299B
+18:12:19.947 [AsyncHttpClient-1-2] DEBUG - Adding key: http://localhost:37970 for channel [id: 0x66f9cc59, L:/127.0.0.1:56190 - R:localhost/127.0.0.1:37970]
+18:12:19.947 [AsyncHttpClient-1-2] TRACE - [id: 0x66f9cc59, L:/127.0.0.1:56190 - R:localhost/127.0.0.1:37970] READ COMPLETE
+18:12:19.948 [Forwarding getElementText on session 28edb5252e4929c9b3dd120c023e1a22 to remote] DEBUG - Using pooled Channel '[id: 0x66f9cc59, L:/127.0.0.1:56190 - R:localhost/127.0.0.1:37970]' for 'GET' to 'http://localhost:37970/session/28edb5252e4929c9b3dd120c023e1a22/element/f.708ECE064DD265E11FA67C0761AB5C1B.d.6B5FA0EAD857D346B6D01500618FDF04.e.572/text'
+18:12:19.948 [Forwarding getElementText on session 28edb5252e4929c9b3dd120c023e1a22 to remote] DEBUG - Using open Channel [id: 0x66f9cc59, L:/127.0.0.1:56190 - R:localhost/127.0.0.1:37970] for GET '/session/28edb5252e4929c9b3dd120c023e1a22/element/f.708ECE064DD265E11FA67C0761AB5C1B.d.6B5FA0EAD857D346B6D01500618FDF04.e.572/text'
+18:12:19.948 [AsyncHttpClient-1-2] TRACE - [id: 0x66f9cc59, L:/127.0.0.1:56190 - R:localhost/127.0.0.1:37970] WRITE: 299B
          +-------------------------------------------------+
          |  0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f |
 +--------+-------------------------------------------------+----------------+
-|00000000| 47 45 54 20 2f 73 65 73 73 69 6f 6e 2f 35 30 39 |GET /session/509|
-|00000010| 61 38 35 63 65 38 30 31 64 38 31 64 63 65 66 36 |a85ce801d81dcef6|
-|00000020| 37 39 39 31 31 34 66 65 30 35 61 65 39 2f 65 6c |799114fe05ae9/el|
-|00000030| 65 6d 65 6e 74 2f 66 2e 44 39 32 37 35 39 35 30 |ement/f.D9275950|
-|00000040| 33 43 31 34 38 44 30 43 37 30 34 35 31 41 36 39 |3C148D0C70451A69|
-|00000050| 32 33 32 44 44 33 33 41 2e 64 2e 30 30 35 32 39 |232DD33A.d.00529|
-|00000060| 39 38 45 39 44 39 46 34 34 41 36 39 44 46 38 30 |98E9D9F44A69DF80|
-|00000070| 43 38 34 42 39 34 34 31 31 37 38 2e 65 2e 35 36 |C84B9441178.e.56|
-|00000080| 34 2f 74 65 78 74 20 48 54 54 50 2f 31 2e 31 0d |4/text HTTP/1.1.|
+|00000000| 47 45 54 20 2f 73 65 73 73 69 6f 6e 2f 32 38 65 |GET /session/28e|
+|00000010| 64 62 35 32 35 32 65 34 39 32 39 63 39 62 33 64 |db5252e4929c9b3d|
+|00000020| 64 31 32 30 63 30 32 33 65 31 61 32 32 2f 65 6c |d120c023e1a22/el|
+|00000030| 65 6d 65 6e 74 2f 66 2e 37 30 38 45 43 45 30 36 |ement/f.708ECE06|
+|00000040| 34 44 44 32 36 35 45 31 31 46 41 36 37 43 30 37 |4DD265E11FA67C07|
+|00000050| 36 31 41 42 35 43 31 42 2e 64 2e 36 42 35 46 41 |61AB5C1B.d.6B5FA|
+|00000060| 30 45 41 44 38 35 37 44 33 34 36 42 36 44 30 31 |0EAD857D346B6D01|
+|00000070| 35 30 30 36 31 38 46 44 46 30 34 2e 65 2e 35 37 |500618FDF04.e.57|
+|00000080| 32 2f 74 65 78 74 20 48 54 54 50 2f 31 2e 31 0d |2/text HTTP/1.1.|
 |00000090| 0a 43 61 63 68 65 2d 43 6f 6e 74 72 6f 6c 3a 20 |.Cache-Control: |
 |000000a0| 6e 6f 2d 63 61 63 68 65 0d 0a 55 73 65 72 2d 41 |no-cache..User-A|
 |000000b0| 67 65 6e 74 3a 20 73 65 6c 65 6e 69 75 6d 2f 34 |gent: selenium/4|
@@ -287,11 +287,11 @@ cache-control: no-cache
 |000000e0| 70 65 3a 20 61 70 70 6c 69 63 61 74 69 6f 6e 2f |pe: application/|
 |000000f0| 6a 73 6f 6e 3b 20 63 68 61 72 73 65 74 3d 75 74 |json; charset=ut|
 |00000100| 66 2d 38 0d 0a 68 6f 73 74 3a 20 6c 6f 63 61 6c |f-8..host: local|
-|00000110| 68 6f 73 74 3a 33 38 32 31 35 0d 0a 61 63 63 65 |host:38215..acce|
+|00000110| 68 6f 73 74 3a 33 37 39 37 30 0d 0a 61 63 63 65 |host:37970..acce|
 |00000120| 70 74 3a 20 2a 2f 2a 0d 0a 0d 0a                |pt: */*....     |
 +--------+-------------------------------------------------+----------------+
-12:05:19.303 [AsyncHttpClient-1-2] TRACE - [id: 0x669d3887, L:/127.0.0.1:63193 - R:localhost/127.0.0.1:38215] FLUSH
-12:05:19.308 [AsyncHttpClient-1-2] TRACE - [id: 0x669d3887, L:/127.0.0.1:63193 - R:localhost/127.0.0.1:38215] READ: 127B
+18:12:19.948 [AsyncHttpClient-1-2] TRACE - [id: 0x66f9cc59, L:/127.0.0.1:56190 - R:localhost/127.0.0.1:37970] FLUSH
+18:12:19.958 [AsyncHttpClient-1-2] TRACE - [id: 0x66f9cc59, L:/127.0.0.1:56190 - R:localhost/127.0.0.1:37970] READ: 127B
          +-------------------------------------------------+
          |  0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f |
 +--------+-------------------------------------------------+----------------+
@@ -304,14 +304,14 @@ cache-control: no-cache
 |00000060| 6e 6f 2d 63 61 63 68 65 0d 0a 0d 0a 7b 22 76 61 |no-cache....{"va|
 |00000070| 6c 75 65 22 3a 22 42 65 6c 6c 75 72 75 22 7d    |lue":"Belluru"} |
 +--------+-------------------------------------------------+----------------+
-12:05:19.308 [AsyncHttpClient-1-2] DEBUG - 
+18:12:19.959 [AsyncHttpClient-1-2] DEBUG - 
 
 Request DefaultFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: EmptyByteBufBE)
-GET /session/509a85ce801d81dcef6799114fe05ae9/element/f.D92759503C148D0C70451A69232DD33A.d.0052998E9D9F44A69DF80C84B9441178.e.564/text HTTP/1.1
+GET /session/28edb5252e4929c9b3dd120c023e1a22/element/f.708ECE064DD265E11FA67C0761AB5C1B.d.6B5FA0EAD857D346B6D01500618FDF04.e.572/text HTTP/1.1
 Cache-Control: no-cache
 User-Agent: selenium/4.12.0 (java windows)
 Content-Type: application/json; charset=utf-8
-host: localhost:38215
+host: localhost:37970
 accept: */*
 
 Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
@@ -320,23 +320,23 @@ Content-Length: 19
 Content-Type: application/json; charset=utf-8
 cache-control: no-cache
 
-12:05:19.308 [AsyncHttpClient-1-2] DEBUG - Adding key: http://localhost:38215 for channel [id: 0x669d3887, L:/127.0.0.1:63193 - R:localhost/127.0.0.1:38215]
-12:05:19.309 [AsyncHttpClient-1-2] TRACE - [id: 0x669d3887, L:/127.0.0.1:63193 - R:localhost/127.0.0.1:38215] READ COMPLETE
-12:05:19.309 [Forwarding getElementText on session 509a85ce801d81dcef6799114fe05ae9 to remote] DEBUG - Using pooled Channel '[id: 0x669d3887, L:/127.0.0.1:63193 - R:localhost/127.0.0.1:38215]' for 'GET' to 'http://localhost:38215/session/509a85ce801d81dcef6799114fe05ae9/element/f.D92759503C148D0C70451A69232DD33A.d.0052998E9D9F44A69DF80C84B9441178.e.565/text'
-12:05:19.309 [Forwarding getElementText on session 509a85ce801d81dcef6799114fe05ae9 to remote] DEBUG - Using open Channel [id: 0x669d3887, L:/127.0.0.1:63193 - R:localhost/127.0.0.1:38215] for GET '/session/509a85ce801d81dcef6799114fe05ae9/element/f.D92759503C148D0C70451A69232DD33A.d.0052998E9D9F44A69DF80C84B9441178.e.565/text'
-12:05:19.309 [AsyncHttpClient-1-2] TRACE - [id: 0x669d3887, L:/127.0.0.1:63193 - R:localhost/127.0.0.1:38215] WRITE: 299B
+18:12:19.959 [AsyncHttpClient-1-2] DEBUG - Adding key: http://localhost:37970 for channel [id: 0x66f9cc59, L:/127.0.0.1:56190 - R:localhost/127.0.0.1:37970]
+18:12:19.959 [AsyncHttpClient-1-2] TRACE - [id: 0x66f9cc59, L:/127.0.0.1:56190 - R:localhost/127.0.0.1:37970] READ COMPLETE
+18:12:19.960 [Forwarding getElementText on session 28edb5252e4929c9b3dd120c023e1a22 to remote] DEBUG - Using pooled Channel '[id: 0x66f9cc59, L:/127.0.0.1:56190 - R:localhost/127.0.0.1:37970]' for 'GET' to 'http://localhost:37970/session/28edb5252e4929c9b3dd120c023e1a22/element/f.708ECE064DD265E11FA67C0761AB5C1B.d.6B5FA0EAD857D346B6D01500618FDF04.e.573/text'
+18:12:19.960 [Forwarding getElementText on session 28edb5252e4929c9b3dd120c023e1a22 to remote] DEBUG - Using open Channel [id: 0x66f9cc59, L:/127.0.0.1:56190 - R:localhost/127.0.0.1:37970] for GET '/session/28edb5252e4929c9b3dd120c023e1a22/element/f.708ECE064DD265E11FA67C0761AB5C1B.d.6B5FA0EAD857D346B6D01500618FDF04.e.573/text'
+18:12:19.961 [AsyncHttpClient-1-2] TRACE - [id: 0x66f9cc59, L:/127.0.0.1:56190 - R:localhost/127.0.0.1:37970] WRITE: 299B
          +-------------------------------------------------+
          |  0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f |
 +--------+-------------------------------------------------+----------------+
-|00000000| 47 45 54 20 2f 73 65 73 73 69 6f 6e 2f 35 30 39 |GET /session/509|
-|00000010| 61 38 35 63 65 38 30 31 64 38 31 64 63 65 66 36 |a85ce801d81dcef6|
-|00000020| 37 39 39 31 31 34 66 65 30 35 61 65 39 2f 65 6c |799114fe05ae9/el|
-|00000030| 65 6d 65 6e 74 2f 66 2e 44 39 32 37 35 39 35 30 |ement/f.D9275950|
-|00000040| 33 43 31 34 38 44 30 43 37 30 34 35 31 41 36 39 |3C148D0C70451A69|
-|00000050| 32 33 32 44 44 33 33 41 2e 64 2e 30 30 35 32 39 |232DD33A.d.00529|
-|00000060| 39 38 45 39 44 39 46 34 34 41 36 39 44 46 38 30 |98E9D9F44A69DF80|
-|00000070| 43 38 34 42 39 34 34 31 31 37 38 2e 65 2e 35 36 |C84B9441178.e.56|
-|00000080| 35 2f 74 65 78 74 20 48 54 54 50 2f 31 2e 31 0d |5/text HTTP/1.1.|
+|00000000| 47 45 54 20 2f 73 65 73 73 69 6f 6e 2f 32 38 65 |GET /session/28e|
+|00000010| 64 62 35 32 35 32 65 34 39 32 39 63 39 62 33 64 |db5252e4929c9b3d|
+|00000020| 64 31 32 30 63 30 32 33 65 31 61 32 32 2f 65 6c |d120c023e1a22/el|
+|00000030| 65 6d 65 6e 74 2f 66 2e 37 30 38 45 43 45 30 36 |ement/f.708ECE06|
+|00000040| 34 44 44 32 36 35 45 31 31 46 41 36 37 43 30 37 |4DD265E11FA67C07|
+|00000050| 36 31 41 42 35 43 31 42 2e 64 2e 36 42 35 46 41 |61AB5C1B.d.6B5FA|
+|00000060| 30 45 41 44 38 35 37 44 33 34 36 42 36 44 30 31 |0EAD857D346B6D01|
+|00000070| 35 30 30 36 31 38 46 44 46 30 34 2e 65 2e 35 37 |500618FDF04.e.57|
+|00000080| 33 2f 74 65 78 74 20 48 54 54 50 2f 31 2e 31 0d |3/text HTTP/1.1.|
 |00000090| 0a 43 61 63 68 65 2d 43 6f 6e 74 72 6f 6c 3a 20 |.Cache-Control: |
 |000000a0| 6e 6f 2d 63 61 63 68 65 0d 0a 55 73 65 72 2d 41 |no-cache..User-A|
 |000000b0| 67 65 6e 74 3a 20 73 65 6c 65 6e 69 75 6d 2f 34 |gent: selenium/4|
@@ -345,11 +345,11 @@ cache-control: no-cache
 |000000e0| 70 65 3a 20 61 70 70 6c 69 63 61 74 69 6f 6e 2f |pe: application/|
 |000000f0| 6a 73 6f 6e 3b 20 63 68 61 72 73 65 74 3d 75 74 |json; charset=ut|
 |00000100| 66 2d 38 0d 0a 68 6f 73 74 3a 20 6c 6f 63 61 6c |f-8..host: local|
-|00000110| 68 6f 73 74 3a 33 38 32 31 35 0d 0a 61 63 63 65 |host:38215..acce|
+|00000110| 68 6f 73 74 3a 33 37 39 37 30 0d 0a 61 63 63 65 |host:37970..acce|
 |00000120| 70 74 3a 20 2a 2f 2a 0d 0a 0d 0a                |pt: */*....     |
 +--------+-------------------------------------------------+----------------+
-12:05:19.309 [AsyncHttpClient-1-2] TRACE - [id: 0x669d3887, L:/127.0.0.1:63193 - R:localhost/127.0.0.1:38215] FLUSH
-12:05:19.315 [AsyncHttpClient-1-2] TRACE - [id: 0x669d3887, L:/127.0.0.1:63193 - R:localhost/127.0.0.1:38215] READ: 130B
+18:12:19.961 [AsyncHttpClient-1-2] TRACE - [id: 0x66f9cc59, L:/127.0.0.1:56190 - R:localhost/127.0.0.1:37970] FLUSH
+18:12:19.973 [AsyncHttpClient-1-2] TRACE - [id: 0x66f9cc59, L:/127.0.0.1:56190 - R:localhost/127.0.0.1:37970] READ: 130B
          +-------------------------------------------------+
          |  0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f |
 +--------+-------------------------------------------------+----------------+
@@ -363,14 +363,14 @@ cache-control: no-cache
 |00000070| 6c 75 65 22 3a 22 42 65 6c 74 61 6e 67 61 64 69 |lue":"Beltangadi|
 |00000080| 22 7d                                           |"}              |
 +--------+-------------------------------------------------+----------------+
-12:05:19.315 [AsyncHttpClient-1-2] DEBUG - 
+18:12:19.973 [AsyncHttpClient-1-2] DEBUG - 
 
 Request DefaultFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: EmptyByteBufBE)
-GET /session/509a85ce801d81dcef6799114fe05ae9/element/f.D92759503C148D0C70451A69232DD33A.d.0052998E9D9F44A69DF80C84B9441178.e.565/text HTTP/1.1
+GET /session/28edb5252e4929c9b3dd120c023e1a22/element/f.708ECE064DD265E11FA67C0761AB5C1B.d.6B5FA0EAD857D346B6D01500618FDF04.e.573/text HTTP/1.1
 Cache-Control: no-cache
 User-Agent: selenium/4.12.0 (java windows)
 Content-Type: application/json; charset=utf-8
-host: localhost:38215
+host: localhost:37970
 accept: */*
 
 Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
@@ -379,23 +379,23 @@ Content-Length: 22
 Content-Type: application/json; charset=utf-8
 cache-control: no-cache
 
-12:05:19.315 [AsyncHttpClient-1-2] DEBUG - Adding key: http://localhost:38215 for channel [id: 0x669d3887, L:/127.0.0.1:63193 - R:localhost/127.0.0.1:38215]
-12:05:19.315 [AsyncHttpClient-1-2] TRACE - [id: 0x669d3887, L:/127.0.0.1:63193 - R:localhost/127.0.0.1:38215] READ COMPLETE
-12:05:19.315 [Forwarding getElementText on session 509a85ce801d81dcef6799114fe05ae9 to remote] DEBUG - Using pooled Channel '[id: 0x669d3887, L:/127.0.0.1:63193 - R:localhost/127.0.0.1:38215]' for 'GET' to 'http://localhost:38215/session/509a85ce801d81dcef6799114fe05ae9/element/f.D92759503C148D0C70451A69232DD33A.d.0052998E9D9F44A69DF80C84B9441178.e.566/text'
-12:05:19.315 [Forwarding getElementText on session 509a85ce801d81dcef6799114fe05ae9 to remote] DEBUG - Using open Channel [id: 0x669d3887, L:/127.0.0.1:63193 - R:localhost/127.0.0.1:38215] for GET '/session/509a85ce801d81dcef6799114fe05ae9/element/f.D92759503C148D0C70451A69232DD33A.d.0052998E9D9F44A69DF80C84B9441178.e.566/text'
-12:05:19.315 [AsyncHttpClient-1-2] TRACE - [id: 0x669d3887, L:/127.0.0.1:63193 - R:localhost/127.0.0.1:38215] WRITE: 299B
+18:12:19.973 [AsyncHttpClient-1-2] DEBUG - Adding key: http://localhost:37970 for channel [id: 0x66f9cc59, L:/127.0.0.1:56190 - R:localhost/127.0.0.1:37970]
+18:12:19.973 [AsyncHttpClient-1-2] TRACE - [id: 0x66f9cc59, L:/127.0.0.1:56190 - R:localhost/127.0.0.1:37970] READ COMPLETE
+18:12:19.974 [Forwarding getElementText on session 28edb5252e4929c9b3dd120c023e1a22 to remote] DEBUG - Using pooled Channel '[id: 0x66f9cc59, L:/127.0.0.1:56190 - R:localhost/127.0.0.1:37970]' for 'GET' to 'http://localhost:37970/session/28edb5252e4929c9b3dd120c023e1a22/element/f.708ECE064DD265E11FA67C0761AB5C1B.d.6B5FA0EAD857D346B6D01500618FDF04.e.574/text'
+18:12:19.974 [Forwarding getElementText on session 28edb5252e4929c9b3dd120c023e1a22 to remote] DEBUG - Using open Channel [id: 0x66f9cc59, L:/127.0.0.1:56190 - R:localhost/127.0.0.1:37970] for GET '/session/28edb5252e4929c9b3dd120c023e1a22/element/f.708ECE064DD265E11FA67C0761AB5C1B.d.6B5FA0EAD857D346B6D01500618FDF04.e.574/text'
+18:12:19.974 [AsyncHttpClient-1-2] TRACE - [id: 0x66f9cc59, L:/127.0.0.1:56190 - R:localhost/127.0.0.1:37970] WRITE: 299B
          +-------------------------------------------------+
          |  0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f |
 +--------+-------------------------------------------------+----------------+
-|00000000| 47 45 54 20 2f 73 65 73 73 69 6f 6e 2f 35 30 39 |GET /session/509|
-|00000010| 61 38 35 63 65 38 30 31 64 38 31 64 63 65 66 36 |a85ce801d81dcef6|
-|00000020| 37 39 39 31 31 34 66 65 30 35 61 65 39 2f 65 6c |799114fe05ae9/el|
-|00000030| 65 6d 65 6e 74 2f 66 2e 44 39 32 37 35 39 35 30 |ement/f.D9275950|
-|00000040| 33 43 31 34 38 44 30 43 37 30 34 35 31 41 36 39 |3C148D0C70451A69|
-|00000050| 32 33 32 44 44 33 33 41 2e 64 2e 30 30 35 32 39 |232DD33A.d.00529|
-|00000060| 39 38 45 39 44 39 46 34 34 41 36 39 44 46 38 30 |98E9D9F44A69DF80|
-|00000070| 43 38 34 42 39 34 34 31 31 37 38 2e 65 2e 35 36 |C84B9441178.e.56|
-|00000080| 36 2f 74 65 78 74 20 48 54 54 50 2f 31 2e 31 0d |6/text HTTP/1.1.|
+|00000000| 47 45 54 20 2f 73 65 73 73 69 6f 6e 2f 32 38 65 |GET /session/28e|
+|00000010| 64 62 35 32 35 32 65 34 39 32 39 63 39 62 33 64 |db5252e4929c9b3d|
+|00000020| 64 31 32 30 63 30 32 33 65 31 61 32 32 2f 65 6c |d120c023e1a22/el|
+|00000030| 65 6d 65 6e 74 2f 66 2e 37 30 38 45 43 45 30 36 |ement/f.708ECE06|
+|00000040| 34 44 44 32 36 35 45 31 31 46 41 36 37 43 30 37 |4DD265E11FA67C07|
+|00000050| 36 31 41 42 35 43 31 42 2e 64 2e 36 42 35 46 41 |61AB5C1B.d.6B5FA|
+|00000060| 30 45 41 44 38 35 37 44 33 34 36 42 36 44 30 31 |0EAD857D346B6D01|
+|00000070| 35 30 30 36 31 38 46 44 46 30 34 2e 65 2e 35 37 |500618FDF04.e.57|
+|00000080| 34 2f 74 65 78 74 20 48 54 54 50 2f 31 2e 31 0d |4/text HTTP/1.1.|
 |00000090| 0a 43 61 63 68 65 2d 43 6f 6e 74 72 6f 6c 3a 20 |.Cache-Control: |
 |000000a0| 6e 6f 2d 63 61 63 68 65 0d 0a 55 73 65 72 2d 41 |no-cache..User-A|
 |000000b0| 67 65 6e 74 3a 20 73 65 6c 65 6e 69 75 6d 2f 34 |gent: selenium/4|
@@ -404,11 +404,11 @@ cache-control: no-cache
 |000000e0| 70 65 3a 20 61 70 70 6c 69 63 61 74 69 6f 6e 2f |pe: application/|
 |000000f0| 6a 73 6f 6e 3b 20 63 68 61 72 73 65 74 3d 75 74 |json; charset=ut|
 |00000100| 66 2d 38 0d 0a 68 6f 73 74 3a 20 6c 6f 63 61 6c |f-8..host: local|
-|00000110| 68 6f 73 74 3a 33 38 32 31 35 0d 0a 61 63 63 65 |host:38215..acce|
+|00000110| 68 6f 73 74 3a 33 37 39 37 30 0d 0a 61 63 63 65 |host:37970..acce|
 |00000120| 70 74 3a 20 2a 2f 2a 0d 0a 0d 0a                |pt: */*....     |
 +--------+-------------------------------------------------+----------------+
-12:05:19.315 [AsyncHttpClient-1-2] TRACE - [id: 0x669d3887, L:/127.0.0.1:63193 - R:localhost/127.0.0.1:38215] FLUSH
-12:05:19.321 [AsyncHttpClient-1-2] TRACE - [id: 0x669d3887, L:/127.0.0.1:63193 - R:localhost/127.0.0.1:38215] READ: 125B
+18:12:19.975 [AsyncHttpClient-1-2] TRACE - [id: 0x66f9cc59, L:/127.0.0.1:56190 - R:localhost/127.0.0.1:37970] FLUSH
+18:12:19.986 [AsyncHttpClient-1-2] TRACE - [id: 0x66f9cc59, L:/127.0.0.1:56190 - R:localhost/127.0.0.1:37970] READ: 125B
          +-------------------------------------------------+
          |  0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f |
 +--------+-------------------------------------------------+----------------+
@@ -421,14 +421,14 @@ cache-control: no-cache
 |00000060| 6e 6f 2d 63 61 63 68 65 0d 0a 0d 0a 7b 22 76 61 |no-cache....{"va|
 |00000070| 6c 75 65 22 3a 22 42 65 6c 75 72 22 7d          |lue":"Belur"}   |
 +--------+-------------------------------------------------+----------------+
-12:05:19.321 [AsyncHttpClient-1-2] DEBUG - 
+18:12:19.986 [AsyncHttpClient-1-2] DEBUG - 
 
 Request DefaultFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: EmptyByteBufBE)
-GET /session/509a85ce801d81dcef6799114fe05ae9/element/f.D92759503C148D0C70451A69232DD33A.d.0052998E9D9F44A69DF80C84B9441178.e.566/text HTTP/1.1
+GET /session/28edb5252e4929c9b3dd120c023e1a22/element/f.708ECE064DD265E11FA67C0761AB5C1B.d.6B5FA0EAD857D346B6D01500618FDF04.e.574/text HTTP/1.1
 Cache-Control: no-cache
 User-Agent: selenium/4.12.0 (java windows)
 Content-Type: application/json; charset=utf-8
-host: localhost:38215
+host: localhost:37970
 accept: */*
 
 Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
@@ -437,23 +437,23 @@ Content-Length: 17
 Content-Type: application/json; charset=utf-8
 cache-control: no-cache
 
-12:05:19.321 [AsyncHttpClient-1-2] DEBUG - Adding key: http://localhost:38215 for channel [id: 0x669d3887, L:/127.0.0.1:63193 - R:localhost/127.0.0.1:38215]
-12:05:19.321 [AsyncHttpClient-1-2] TRACE - [id: 0x669d3887, L:/127.0.0.1:63193 - R:localhost/127.0.0.1:38215] READ COMPLETE
-12:05:19.321 [Forwarding getElementText on session 509a85ce801d81dcef6799114fe05ae9 to remote] DEBUG - Using pooled Channel '[id: 0x669d3887, L:/127.0.0.1:63193 - R:localhost/127.0.0.1:38215]' for 'GET' to 'http://localhost:38215/session/509a85ce801d81dcef6799114fe05ae9/element/f.D92759503C148D0C70451A69232DD33A.d.0052998E9D9F44A69DF80C84B9441178.e.567/text'
-12:05:19.321 [Forwarding getElementText on session 509a85ce801d81dcef6799114fe05ae9 to remote] DEBUG - Using open Channel [id: 0x669d3887, L:/127.0.0.1:63193 - R:localhost/127.0.0.1:38215] for GET '/session/509a85ce801d81dcef6799114fe05ae9/element/f.D92759503C148D0C70451A69232DD33A.d.0052998E9D9F44A69DF80C84B9441178.e.567/text'
-12:05:19.321 [AsyncHttpClient-1-2] TRACE - [id: 0x669d3887, L:/127.0.0.1:63193 - R:localhost/127.0.0.1:38215] WRITE: 299B
+18:12:19.986 [AsyncHttpClient-1-2] DEBUG - Adding key: http://localhost:37970 for channel [id: 0x66f9cc59, L:/127.0.0.1:56190 - R:localhost/127.0.0.1:37970]
+18:12:19.986 [AsyncHttpClient-1-2] TRACE - [id: 0x66f9cc59, L:/127.0.0.1:56190 - R:localhost/127.0.0.1:37970] READ COMPLETE
+18:12:19.987 [Forwarding getElementText on session 28edb5252e4929c9b3dd120c023e1a22 to remote] DEBUG - Using pooled Channel '[id: 0x66f9cc59, L:/127.0.0.1:56190 - R:localhost/127.0.0.1:37970]' for 'GET' to 'http://localhost:37970/session/28edb5252e4929c9b3dd120c023e1a22/element/f.708ECE064DD265E11FA67C0761AB5C1B.d.6B5FA0EAD857D346B6D01500618FDF04.e.575/text'
+18:12:19.987 [Forwarding getElementText on session 28edb5252e4929c9b3dd120c023e1a22 to remote] DEBUG - Using open Channel [id: 0x66f9cc59, L:/127.0.0.1:56190 - R:localhost/127.0.0.1:37970] for GET '/session/28edb5252e4929c9b3dd120c023e1a22/element/f.708ECE064DD265E11FA67C0761AB5C1B.d.6B5FA0EAD857D346B6D01500618FDF04.e.575/text'
+18:12:19.988 [AsyncHttpClient-1-2] TRACE - [id: 0x66f9cc59, L:/127.0.0.1:56190 - R:localhost/127.0.0.1:37970] WRITE: 299B
          +-------------------------------------------------+
          |  0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f |
 +--------+-------------------------------------------------+----------------+
-|00000000| 47 45 54 20 2f 73 65 73 73 69 6f 6e 2f 35 30 39 |GET /session/509|
-|00000010| 61 38 35 63 65 38 30 31 64 38 31 64 63 65 66 36 |a85ce801d81dcef6|
-|00000020| 37 39 39 31 31 34 66 65 30 35 61 65 39 2f 65 6c |799114fe05ae9/el|
-|00000030| 65 6d 65 6e 74 2f 66 2e 44 39 32 37 35 39 35 30 |ement/f.D9275950|
-|00000040| 33 43 31 34 38 44 30 43 37 30 34 35 31 41 36 39 |3C148D0C70451A69|
-|00000050| 32 33 32 44 44 33 33 41 2e 64 2e 30 30 35 32 39 |232DD33A.d.00529|
-|00000060| 39 38 45 39 44 39 46 34 34 41 36 39 44 46 38 30 |98E9D9F44A69DF80|
-|00000070| 43 38 34 42 39 34 34 31 31 37 38 2e 65 2e 35 36 |C84B9441178.e.56|
-|00000080| 37 2f 74 65 78 74 20 48 54 54 50 2f 31 2e 31 0d |7/text HTTP/1.1.|
+|00000000| 47 45 54 20 2f 73 65 73 73 69 6f 6e 2f 32 38 65 |GET /session/28e|
+|00000010| 64 62 35 32 35 32 65 34 39 32 39 63 39 62 33 64 |db5252e4929c9b3d|
+|00000020| 64 31 32 30 63 30 32 33 65 31 61 32 32 2f 65 6c |d120c023e1a22/el|
+|00000030| 65 6d 65 6e 74 2f 66 2e 37 30 38 45 43 45 30 36 |ement/f.708ECE06|
+|00000040| 34 44 44 32 36 35 45 31 31 46 41 36 37 43 30 37 |4DD265E11FA67C07|
+|00000050| 36 31 41 42 35 43 31 42 2e 64 2e 36 42 35 46 41 |61AB5C1B.d.6B5FA|
+|00000060| 30 45 41 44 38 35 37 44 33 34 36 42 36 44 30 31 |0EAD857D346B6D01|
+|00000070| 35 30 30 36 31 38 46 44 46 30 34 2e 65 2e 35 37 |500618FDF04.e.57|
+|00000080| 35 2f 74 65 78 74 20 48 54 54 50 2f 31 2e 31 0d |5/text HTTP/1.1.|
 |00000090| 0a 43 61 63 68 65 2d 43 6f 6e 74 72 6f 6c 3a 20 |.Cache-Control: |
 |000000a0| 6e 6f 2d 63 61 63 68 65 0d 0a 55 73 65 72 2d 41 |no-cache..User-A|
 |000000b0| 67 65 6e 74 3a 20 73 65 6c 65 6e 69 75 6d 2f 34 |gent: selenium/4|
@@ -462,11 +462,11 @@ cache-control: no-cache
 |000000e0| 70 65 3a 20 61 70 70 6c 69 63 61 74 69 6f 6e 2f |pe: application/|
 |000000f0| 6a 73 6f 6e 3b 20 63 68 61 72 73 65 74 3d 75 74 |json; charset=ut|
 |00000100| 66 2d 38 0d 0a 68 6f 73 74 3a 20 6c 6f 63 61 6c |f-8..host: local|
-|00000110| 68 6f 73 74 3a 33 38 32 31 35 0d 0a 61 63 63 65 |host:38215..acce|
+|00000110| 68 6f 73 74 3a 33 37 39 37 30 0d 0a 61 63 63 65 |host:37970..acce|
 |00000120| 70 74 3a 20 2a 2f 2a 0d 0a 0d 0a                |pt: */*....     |
 +--------+-------------------------------------------------+----------------+
-12:05:19.321 [AsyncHttpClient-1-2] TRACE - [id: 0x669d3887, L:/127.0.0.1:63193 - R:localhost/127.0.0.1:38215] FLUSH
-12:05:19.327 [AsyncHttpClient-1-2] TRACE - [id: 0x669d3887, L:/127.0.0.1:63193 - R:localhost/127.0.0.1:38215] READ: 129B
+18:12:19.988 [AsyncHttpClient-1-2] TRACE - [id: 0x66f9cc59, L:/127.0.0.1:56190 - R:localhost/127.0.0.1:37970] FLUSH
+18:12:19.998 [AsyncHttpClient-1-2] TRACE - [id: 0x66f9cc59, L:/127.0.0.1:56190 - R:localhost/127.0.0.1:37970] READ: 129B
          +-------------------------------------------------+
          |  0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f |
 +--------+-------------------------------------------------+----------------+
@@ -480,14 +480,14 @@ cache-control: no-cache
 |00000070| 6c 75 65 22 3a 22 42 65 6e 67 61 6c 75 72 75 22 |lue":"Bengaluru"|
 |00000080| 7d                                              |}               |
 +--------+-------------------------------------------------+----------------+
-12:05:19.327 [AsyncHttpClient-1-2] DEBUG - 
+18:12:19.998 [AsyncHttpClient-1-2] DEBUG - 
 
 Request DefaultFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: EmptyByteBufBE)
-GET /session/509a85ce801d81dcef6799114fe05ae9/element/f.D92759503C148D0C70451A69232DD33A.d.0052998E9D9F44A69DF80C84B9441178.e.567/text HTTP/1.1
+GET /session/28edb5252e4929c9b3dd120c023e1a22/element/f.708ECE064DD265E11FA67C0761AB5C1B.d.6B5FA0EAD857D346B6D01500618FDF04.e.575/text HTTP/1.1
 Cache-Control: no-cache
 User-Agent: selenium/4.12.0 (java windows)
 Content-Type: application/json; charset=utf-8
-host: localhost:38215
+host: localhost:37970
 accept: */*
 
 Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
@@ -496,23 +496,23 @@ Content-Length: 21
 Content-Type: application/json; charset=utf-8
 cache-control: no-cache
 
-12:05:19.327 [AsyncHttpClient-1-2] DEBUG - Adding key: http://localhost:38215 for channel [id: 0x669d3887, L:/127.0.0.1:63193 - R:localhost/127.0.0.1:38215]
-12:05:19.327 [AsyncHttpClient-1-2] TRACE - [id: 0x669d3887, L:/127.0.0.1:63193 - R:localhost/127.0.0.1:38215] READ COMPLETE
-12:05:19.327 [Forwarding clickElement on session 509a85ce801d81dcef6799114fe05ae9 to remote] DEBUG - Using pooled Channel '[id: 0x669d3887, L:/127.0.0.1:63193 - R:localhost/127.0.0.1:38215]' for 'POST' to 'http://localhost:38215/session/509a85ce801d81dcef6799114fe05ae9/element/f.D92759503C148D0C70451A69232DD33A.d.0052998E9D9F44A69DF80C84B9441178.e.567/click'
-12:05:19.327 [Forwarding clickElement on session 509a85ce801d81dcef6799114fe05ae9 to remote] DEBUG - Using open Channel [id: 0x669d3887, L:/127.0.0.1:63193 - R:localhost/127.0.0.1:38215] for POST '/session/509a85ce801d81dcef6799114fe05ae9/element/f.D92759503C148D0C70451A69232DD33A.d.0052998E9D9F44A69DF80C84B9441178.e.567/click'
-12:05:19.328 [AsyncHttpClient-1-2] TRACE - [id: 0x669d3887, L:/127.0.0.1:63193 - R:localhost/127.0.0.1:38215] WRITE: 296B
+18:12:19.998 [AsyncHttpClient-1-2] DEBUG - Adding key: http://localhost:37970 for channel [id: 0x66f9cc59, L:/127.0.0.1:56190 - R:localhost/127.0.0.1:37970]
+18:12:19.998 [AsyncHttpClient-1-2] TRACE - [id: 0x66f9cc59, L:/127.0.0.1:56190 - R:localhost/127.0.0.1:37970] READ COMPLETE
+18:12:20.000 [Forwarding clickElement on session 28edb5252e4929c9b3dd120c023e1a22 to remote] DEBUG - Using pooled Channel '[id: 0x66f9cc59, L:/127.0.0.1:56190 - R:localhost/127.0.0.1:37970]' for 'POST' to 'http://localhost:37970/session/28edb5252e4929c9b3dd120c023e1a22/element/f.708ECE064DD265E11FA67C0761AB5C1B.d.6B5FA0EAD857D346B6D01500618FDF04.e.575/click'
+18:12:20.000 [Forwarding clickElement on session 28edb5252e4929c9b3dd120c023e1a22 to remote] DEBUG - Using open Channel [id: 0x66f9cc59, L:/127.0.0.1:56190 - R:localhost/127.0.0.1:37970] for POST '/session/28edb5252e4929c9b3dd120c023e1a22/element/f.708ECE064DD265E11FA67C0761AB5C1B.d.6B5FA0EAD857D346B6D01500618FDF04.e.575/click'
+18:12:20.000 [AsyncHttpClient-1-2] TRACE - [id: 0x66f9cc59, L:/127.0.0.1:56190 - R:localhost/127.0.0.1:37970] WRITE: 296B
          +-------------------------------------------------+
          |  0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f |
 +--------+-------------------------------------------------+----------------+
-|00000000| 50 4f 53 54 20 2f 73 65 73 73 69 6f 6e 2f 35 30 |POST /session/50|
-|00000010| 39 61 38 35 63 65 38 30 31 64 38 31 64 63 65 66 |9a85ce801d81dcef|
-|00000020| 36 37 39 39 31 31 34 66 65 30 35 61 65 39 2f 65 |6799114fe05ae9/e|
-|00000030| 6c 65 6d 65 6e 74 2f 66 2e 44 39 32 37 35 39 35 |lement/f.D927595|
-|00000040| 30 33 43 31 34 38 44 30 43 37 30 34 35 31 41 36 |03C148D0C70451A6|
-|00000050| 39 32 33 32 44 44 33 33 41 2e 64 2e 30 30 35 32 |9232DD33A.d.0052|
-|00000060| 39 39 38 45 39 44 39 46 34 34 41 36 39 44 46 38 |998E9D9F44A69DF8|
-|00000070| 30 43 38 34 42 39 34 34 31 31 37 38 2e 65 2e 35 |0C84B9441178.e.5|
-|00000080| 36 37 2f 63 6c 69 63 6b 20 48 54 54 50 2f 31 2e |67/click HTTP/1.|
+|00000000| 50 4f 53 54 20 2f 73 65 73 73 69 6f 6e 2f 32 38 |POST /session/28|
+|00000010| 65 64 62 35 32 35 32 65 34 39 32 39 63 39 62 33 |edb5252e4929c9b3|
+|00000020| 64 64 31 32 30 63 30 32 33 65 31 61 32 32 2f 65 |dd120c023e1a22/e|
+|00000030| 6c 65 6d 65 6e 74 2f 66 2e 37 30 38 45 43 45 30 |lement/f.708ECE0|
+|00000040| 36 34 44 44 32 36 35 45 31 31 46 41 36 37 43 30 |64DD265E11FA67C0|
+|00000050| 37 36 31 41 42 35 43 31 42 2e 64 2e 36 42 35 46 |761AB5C1B.d.6B5F|
+|00000060| 41 30 45 41 44 38 35 37 44 33 34 36 42 36 44 30 |A0EAD857D346B6D0|
+|00000070| 31 35 30 30 36 31 38 46 44 46 30 34 2e 65 2e 35 |1500618FDF04.e.5|
+|00000080| 37 35 2f 63 6c 69 63 6b 20 48 54 54 50 2f 31 2e |75/click HTTP/1.|
 |00000090| 31 0d 0a 55 73 65 72 2d 41 67 65 6e 74 3a 20 73 |1..User-Agent: s|
 |000000a0| 65 6c 65 6e 69 75 6d 2f 34 2e 31 32 2e 30 20 28 |elenium/4.12.0 (|
 |000000b0| 6a 61 76 61 20 77 69 6e 64 6f 77 73 29 0d 0a 43 |java windows)..C|
@@ -521,24 +521,24 @@ cache-control: no-cache
 |000000e0| 20 61 70 70 6c 69 63 61 74 69 6f 6e 2f 6a 73 6f | application/jso|
 |000000f0| 6e 3b 20 63 68 61 72 73 65 74 3d 75 74 66 2d 38 |n; charset=utf-8|
 |00000100| 0d 0a 68 6f 73 74 3a 20 6c 6f 63 61 6c 68 6f 73 |..host: localhos|
-|00000110| 74 3a 33 38 32 31 35 0d 0a 61 63 63 65 70 74 3a |t:38215..accept:|
+|00000110| 74 3a 33 37 39 37 30 0d 0a 61 63 63 65 70 74 3a |t:37970..accept:|
 |00000120| 20 2a 2f 2a 0d 0a 0d 0a                         | */*....        |
 +--------+-------------------------------------------------+----------------+
-12:05:19.328 [AsyncHttpClient-1-2] TRACE - [id: 0x669d3887, L:/127.0.0.1:63193 - R:localhost/127.0.0.1:38215] WRITE: 89B
+18:12:20.000 [AsyncHttpClient-1-2] TRACE - [id: 0x66f9cc59, L:/127.0.0.1:56190 - R:localhost/127.0.0.1:37970] WRITE: 89B
          +-------------------------------------------------+
          |  0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f |
 +--------+-------------------------------------------------+----------------+
-|00000000| 7b 0a 20 20 22 69 64 22 3a 20 22 66 2e 44 39 32 |{.  "id": "f.D92|
-|00000010| 37 35 39 35 30 33 43 31 34 38 44 30 43 37 30 34 |759503C148D0C704|
-|00000020| 35 31 41 36 39 32 33 32 44 44 33 33 41 2e 64 2e |51A69232DD33A.d.|
-|00000030| 30 30 35 32 39 39 38 45 39 44 39 46 34 34 41 36 |0052998E9D9F44A6|
-|00000040| 39 44 46 38 30 43 38 34 42 39 34 34 31 31 37 38 |9DF80C84B9441178|
-|00000050| 2e 65 2e 35 36 37 22 0a 7d                      |.e.567".}       |
+|00000000| 7b 0a 20 20 22 69 64 22 3a 20 22 66 2e 37 30 38 |{.  "id": "f.708|
+|00000010| 45 43 45 30 36 34 44 44 32 36 35 45 31 31 46 41 |ECE064DD265E11FA|
+|00000020| 36 37 43 30 37 36 31 41 42 35 43 31 42 2e 64 2e |67C0761AB5C1B.d.|
+|00000030| 36 42 35 46 41 30 45 41 44 38 35 37 44 33 34 36 |6B5FA0EAD857D346|
+|00000040| 42 36 44 30 31 35 30 30 36 31 38 46 44 46 30 34 |B6D01500618FDF04|
+|00000050| 2e 65 2e 35 37 35 22 0a 7d                      |.e.575".}       |
 +--------+-------------------------------------------------+----------------+
-12:05:19.328 [AsyncHttpClient-1-2] TRACE - [id: 0x669d3887, L:/127.0.0.1:63193 - R:localhost/127.0.0.1:38215] FLUSH
-12:05:19.328 [AsyncHttpClient-1-2] TRACE - [id: 0x669d3887, L:/127.0.0.1:63193 - R:localhost/127.0.0.1:38215] WRITE: 0B
-12:05:19.328 [AsyncHttpClient-1-2] TRACE - [id: 0x669d3887, L:/127.0.0.1:63193 - R:localhost/127.0.0.1:38215] FLUSH
-12:05:19.635 [AsyncHttpClient-1-2] TRACE - [id: 0x669d3887, L:/127.0.0.1:63193 - R:localhost/127.0.0.1:38215] READ: 122B
+18:12:20.000 [AsyncHttpClient-1-2] TRACE - [id: 0x66f9cc59, L:/127.0.0.1:56190 - R:localhost/127.0.0.1:37970] FLUSH
+18:12:20.001 [AsyncHttpClient-1-2] TRACE - [id: 0x66f9cc59, L:/127.0.0.1:56190 - R:localhost/127.0.0.1:37970] WRITE: 0B
+18:12:20.001 [AsyncHttpClient-1-2] TRACE - [id: 0x66f9cc59, L:/127.0.0.1:56190 - R:localhost/127.0.0.1:37970] FLUSH
+18:12:20.347 [AsyncHttpClient-1-2] TRACE - [id: 0x66f9cc59, L:/127.0.0.1:56190 - R:localhost/127.0.0.1:37970] READ: 122B
          +-------------------------------------------------+
          |  0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f |
 +--------+-------------------------------------------------+----------------+
@@ -551,14 +551,14 @@ cache-control: no-cache
 |00000060| 6e 6f 2d 63 61 63 68 65 0d 0a 0d 0a 7b 22 76 61 |no-cache....{"va|
 |00000070| 6c 75 65 22 3a 6e 75 6c 6c 7d                   |lue":null}      |
 +--------+-------------------------------------------------+----------------+
-12:05:19.635 [AsyncHttpClient-1-2] DEBUG - 
+18:12:20.347 [AsyncHttpClient-1-2] DEBUG - 
 
 Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
-POST /session/509a85ce801d81dcef6799114fe05ae9/element/f.D92759503C148D0C70451A69232DD33A.d.0052998E9D9F44A69DF80C84B9441178.e.567/click HTTP/1.1
+POST /session/28edb5252e4929c9b3dd120c023e1a22/element/f.708ECE064DD265E11FA67C0761AB5C1B.d.6B5FA0EAD857D346B6D01500618FDF04.e.575/click HTTP/1.1
 User-Agent: selenium/4.12.0 (java windows)
 Content-Length: 89
 Content-Type: application/json; charset=utf-8
-host: localhost:38215
+host: localhost:37970
 accept: */*
 
 Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
@@ -567,17 +567,17 @@ Content-Length: 14
 Content-Type: application/json; charset=utf-8
 cache-control: no-cache
 
-12:05:19.635 [AsyncHttpClient-1-2] DEBUG - Adding key: http://localhost:38215 for channel [id: 0x669d3887, L:/127.0.0.1:63193 - R:localhost/127.0.0.1:38215]
-12:05:19.635 [AsyncHttpClient-1-2] TRACE - [id: 0x669d3887, L:/127.0.0.1:63193 - R:localhost/127.0.0.1:38215] READ COMPLETE
-12:05:19.638 [Forwarding findElement on session 509a85ce801d81dcef6799114fe05ae9 to remote] DEBUG - Using pooled Channel '[id: 0x669d3887, L:/127.0.0.1:63193 - R:localhost/127.0.0.1:38215]' for 'POST' to 'http://localhost:38215/session/509a85ce801d81dcef6799114fe05ae9/element'
-12:05:19.638 [Forwarding findElement on session 509a85ce801d81dcef6799114fe05ae9 to remote] DEBUG - Using open Channel [id: 0x669d3887, L:/127.0.0.1:63193 - R:localhost/127.0.0.1:38215] for POST '/session/509a85ce801d81dcef6799114fe05ae9/element'
-12:05:19.638 [AsyncHttpClient-1-2] TRACE - [id: 0x669d3887, L:/127.0.0.1:63193 - R:localhost/127.0.0.1:38215] WRITE: 214B
+18:12:20.347 [AsyncHttpClient-1-2] DEBUG - Adding key: http://localhost:37970 for channel [id: 0x66f9cc59, L:/127.0.0.1:56190 - R:localhost/127.0.0.1:37970]
+18:12:20.348 [AsyncHttpClient-1-2] TRACE - [id: 0x66f9cc59, L:/127.0.0.1:56190 - R:localhost/127.0.0.1:37970] READ COMPLETE
+18:12:20.349 [Forwarding findElement on session 28edb5252e4929c9b3dd120c023e1a22 to remote] DEBUG - Using pooled Channel '[id: 0x66f9cc59, L:/127.0.0.1:56190 - R:localhost/127.0.0.1:37970]' for 'POST' to 'http://localhost:37970/session/28edb5252e4929c9b3dd120c023e1a22/element'
+18:12:20.349 [Forwarding findElement on session 28edb5252e4929c9b3dd120c023e1a22 to remote] DEBUG - Using open Channel [id: 0x66f9cc59, L:/127.0.0.1:56190 - R:localhost/127.0.0.1:37970] for POST '/session/28edb5252e4929c9b3dd120c023e1a22/element'
+18:12:20.349 [AsyncHttpClient-1-2] TRACE - [id: 0x66f9cc59, L:/127.0.0.1:56190 - R:localhost/127.0.0.1:37970] WRITE: 214B
          +-------------------------------------------------+
          |  0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f |
 +--------+-------------------------------------------------+----------------+
-|00000000| 50 4f 53 54 20 2f 73 65 73 73 69 6f 6e 2f 35 30 |POST /session/50|
-|00000010| 39 61 38 35 63 65 38 30 31 64 38 31 64 63 65 66 |9a85ce801d81dcef|
-|00000020| 36 37 39 39 31 31 34 66 65 30 35 61 65 39 2f 65 |6799114fe05ae9/e|
+|00000000| 50 4f 53 54 20 2f 73 65 73 73 69 6f 6e 2f 32 38 |POST /session/28|
+|00000010| 65 64 62 35 32 35 32 65 34 39 32 39 63 39 62 33 |edb5252e4929c9b3|
+|00000020| 64 64 31 32 30 63 30 32 33 65 31 61 32 32 2f 65 |dd120c023e1a22/e|
 |00000030| 6c 65 6d 65 6e 74 20 48 54 54 50 2f 31 2e 31 0d |lement HTTP/1.1.|
 |00000040| 0a 55 73 65 72 2d 41 67 65 6e 74 3a 20 73 65 6c |.User-Agent: sel|
 |00000050| 65 6e 69 75 6d 2f 34 2e 31 32 2e 30 20 28 6a 61 |enium/4.12.0 (ja|
@@ -587,10 +587,10 @@ cache-control: no-cache
 |00000090| 70 70 6c 69 63 61 74 69 6f 6e 2f 6a 73 6f 6e 3b |pplication/json;|
 |000000a0| 20 63 68 61 72 73 65 74 3d 75 74 66 2d 38 0d 0a | charset=utf-8..|
 |000000b0| 68 6f 73 74 3a 20 6c 6f 63 61 6c 68 6f 73 74 3a |host: localhost:|
-|000000c0| 33 38 32 31 35 0d 0a 61 63 63 65 70 74 3a 20 2a |38215..accept: *|
+|000000c0| 33 37 39 37 30 0d 0a 61 63 63 65 70 74 3a 20 2a |37970..accept: *|
 |000000d0| 2f 2a 0d 0a 0d 0a                               |/*....          |
 +--------+-------------------------------------------------+----------------+
-12:05:19.638 [AsyncHttpClient-1-2] TRACE - [id: 0x669d3887, L:/127.0.0.1:63193 - R:localhost/127.0.0.1:38215] WRITE: 67B
+18:12:20.349 [AsyncHttpClient-1-2] TRACE - [id: 0x66f9cc59, L:/127.0.0.1:56190 - R:localhost/127.0.0.1:37970] WRITE: 67B
          +-------------------------------------------------+
          |  0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f |
 +--------+-------------------------------------------------+----------------+
@@ -600,10 +600,10 @@ cache-control: no-cache
 |00000030| 40 69 64 3d 27 6f 72 67 50 4f 63 6f 64 65 27 5d |@id='orgPOcode']|
 |00000040| 22 0a 7d                                        |".}             |
 +--------+-------------------------------------------------+----------------+
-12:05:19.638 [AsyncHttpClient-1-2] TRACE - [id: 0x669d3887, L:/127.0.0.1:63193 - R:localhost/127.0.0.1:38215] FLUSH
-12:05:19.639 [AsyncHttpClient-1-2] TRACE - [id: 0x669d3887, L:/127.0.0.1:63193 - R:localhost/127.0.0.1:38215] WRITE: 0B
-12:05:19.639 [AsyncHttpClient-1-2] TRACE - [id: 0x669d3887, L:/127.0.0.1:63193 - R:localhost/127.0.0.1:38215] FLUSH
-12:05:19.707 [AsyncHttpClient-1-2] TRACE - [id: 0x669d3887, L:/127.0.0.1:63193 - R:localhost/127.0.0.1:38215] READ: 236B
+18:12:20.349 [AsyncHttpClient-1-2] TRACE - [id: 0x66f9cc59, L:/127.0.0.1:56190 - R:localhost/127.0.0.1:37970] FLUSH
+18:12:20.350 [AsyncHttpClient-1-2] TRACE - [id: 0x66f9cc59, L:/127.0.0.1:56190 - R:localhost/127.0.0.1:37970] WRITE: 0B
+18:12:20.350 [AsyncHttpClient-1-2] TRACE - [id: 0x66f9cc59, L:/127.0.0.1:56190 - R:localhost/127.0.0.1:37970] FLUSH
+18:12:20.400 [AsyncHttpClient-1-2] TRACE - [id: 0x66f9cc59, L:/127.0.0.1:56190 - R:localhost/127.0.0.1:37970] READ: 236B
          +-------------------------------------------------+
          |  0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f |
 +--------+-------------------------------------------------+----------------+
@@ -617,9 +617,9 @@ cache-control: no-cache
 |00000070| 61 6c 75 65 22 3a 7b 22 65 6c 65 6d 65 6e 74 2d |alue":{"element-|
 |00000080| 36 30 36 36 2d 31 31 65 34 2d 61 35 32 65 2d 34 |6066-11e4-a52e-4|
 |00000090| 66 37 33 35 34 36 36 63 65 63 66 22 3a 22 66 2e |f735466cecf":"f.|
-|000000a0| 44 39 32 37 35 39 35 30 33 43 31 34 38 44 30 43 |D92759503C148D0C|
-|000000b0| 37 30 34 35 31 41 36 39 32 33 32 44 44 33 33 41 |70451A69232DD33A|
-|000000c0| 2e 64 2e 30 30 35 32 39 39 38 45 39 44 39 46 34 |.d.0052998E9D9F4|
-|000000d0| 34 41 36 39 44 46 38 30 43 38 34 42 39 34 34 31 |4A69DF80C84B9441|
-|000000e0| 31 37 38 2e 65 2e 32 33 38 22 7d 7d             |178.e.238"}}    |
+|000000a0| 37 30 38 45 43 45 30 36 34 44 44 32 36 35 45 31 |708ECE064DD265E1|
+|000000b0| 31 46 41 36 37 43 30 37 36 31 41 42 35 43 31 42 |1FA67C0761AB5C1B|
+|000000c0| 2e 64 2e 36 42 35 46 41 30 45 41 44 38 35 37 44 |.d.6B5FA0EAD857D|
+|000000d0| 33 34 36 42 36 44 30 31 35 30 30 36 31 38 46 44 |346B6D01500618FD|
+|000000e0| 46 30 34 2e 65 2e 32 34 31 22 7d 7d             |F04.e.241"}}    |
 +--------+-------------------------------------------------+----------------+

@@ -19,11 +19,13 @@
 					<groupId>org.apache.maven.plugins</groupId>
 					<artifactId>maven-surefire-plugin</artifactId>
 					<version>3.5.2</version>
+					
 					<configuration>
-						<suiteXmlFiles>
-							<suiteXmlFile>master.xml</suiteXmlFile>
-						</suiteXmlFiles>
+						<includes>
+							<include>**/TestRunner.java</include>
+						</includes>
 					</configuration>
+					
 				</plugin>
 			</plugins>
 		</pluginManagement>
@@ -31,12 +33,12 @@
 	<dependencies>
 
 		<!-- Cucumber TestNG (Optional, if using TestNG instead of JUnit) -->
-		<dependency>
+	<!-- 	<dependency>
 			<groupId>io.cucumber</groupId>
 			<artifactId>cucumber-testng</artifactId>
 			<version>7.14.0</version>
 			<scope>test</scope>
-		</dependency>
+		</dependency>-->
 
 		<!-- Selenium WebDriver -->
 		<dependency>
@@ -74,12 +76,12 @@
 		</dependency>
 
 		<!-- https://mvnrepository.com/artifact/org.testng/testng -->
-		<dependency>
+	<!-- 	<dependency>
 			<groupId>org.testng</groupId>
 			<artifactId>testng</artifactId>
 			<version>7.10.2</version>
 			<scope>test</scope>
-		</dependency>
+		</dependency>-->
 
 		<!-- https://mvnrepository.com/artifact/com.aventstack/extentreports -->
 		<dependency>
@@ -136,11 +138,7 @@
 			<version>1.14.0</version>
 		</dependency>
 
-		<dependency>
-			<groupId>HIMS_Cucumber</groupId>
-			<artifactId>HIMS_Cucumber</artifactId>
-			<version>0.0.1-SNAPSHOT</version>
-		</dependency>
+
 	</dependencies>
 
 
